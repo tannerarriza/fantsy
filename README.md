@@ -18,7 +18,7 @@ we are want obsersavtions as players
 use -standings. 
 merge standings and box score. each player attached to that row
 
-    * Official dataset: Combine PlayerBoxScore with Standings dataset, because Player dataset is the only one with player roster first and last names. Idea is to join the two datasets based on the game date and team columns, and then group this newly created dataset by players because our observations are represented by players and not on teams. Each player assigned to a row will have certain team stats attached to each row as well. These can include things such as away vs. home, regular season (for now), looking at the number of fouls a player gets, number of days since last game played by team, winning streak, etc. (see below for list of features to consider) 
+Official dataset: Combine PlayerBoxScore with Standings dataset, because Player dataset is the only one with player roster first and last names. Idea is to join the two datasets based on the game date and team columns, and then group this newly created dataset by players because our observations are represented by players and not on teams. Each player assigned to a row will have certain team stats attached to each row as well. These can include things such as away vs. home, regular season (for now), looking at the number of fouls a player gets, number of days since last game played by team, winning streak, etc. (see below for list of features to consider) 
     
 2) split data to a test set and hide that away
 
@@ -48,9 +48,21 @@ merge standings and box score. each player attached to that row
 4) Establish scaleable and easy to use ML pipeline to evaluate data.
 
     idea. 
+___________________________________________________________________
 
+Ideas for how should categorical variables be taken care of?
 
-for aish
+- Season type (Pre/Regular/Post): apply one-hot encoding
+- For Primary and Opposition teams
+    - team abbreviation codes (about 30): apply binary encoding
+    - team conference (2 values of East and West): convert to 0 and 1
+    - team division (6 values that are nominal): apply one-hot encoding
+- Following two columns can be filtered out for Opposition, as they will be just the reverse of the primary team
+    - team location (2 values of Away and Home): convert to 0 and 1
+    - team results (2 values of Win and Loss): convert to 0 and 1
+ ___________________________________________________________________
+
+for aish & isha 
 ```python
 # functions
 
