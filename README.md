@@ -108,6 +108,12 @@ def feature_engineer(data):
     '''
     return 
 
-
+def averageForOutliers(data):
+    'used to deal with outliers - used to find the average of the column'
+    return 
+    
+def removeOutliers(data):
+    'used to deal with outliers - removing that row from the dataset '
+    return 
 
 ```
