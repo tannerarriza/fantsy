@@ -49,3 +49,53 @@ merge standings and box score. each player attached to that row
 
     idea. 
 
+
+for aish
+```python
+# functions
+
+def cross_validate(train,labels, model, para_list)
+    '''
+    args:
+        train: data to train on
+        labels: labels to fit on
+        model to fit
+        parameters to validate
+    returns best parameter and visualziatoins of the tarining and cv validation loss 
+    '''
+    pass
+
+    return 
+
+def validate(train,labels, model, args*):
+    '''
+    returns the validation loss on model 
+    plots visualizations
+    
+    example of function call
+    
+        validate(X)tf
+    '''
+    pass
+    return 
+
+def one_hot(data, feature):
+    '''
+    args:
+        data
+        feature: string of the feature name
+    returns:
+        merged data set of the feature one_hot encoded and orginal feature dropped
+    '''
+    return 
+
+def feature_engineer(data):
+    
+    '''
+    given our unseen test or validation data, run all the other preprocessing fucntions on the test data 
+    '''
+    return 
+
+
+
+```
