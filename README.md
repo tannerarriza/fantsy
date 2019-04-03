@@ -124,5 +124,9 @@ def removeOutliers(data):
 def Playing(data):
     'check that the player is current playing this season and has played at least one season before'
     return
+    
+def fantasypoints(data):
+    'calculate the fantasy points- https://www.nba.com/article/2017/10/05/nba-unveils-new-official-fantasy-scoring'
+    return 
 
 ```
