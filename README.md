@@ -64,6 +64,8 @@ Ideas for how should categorical variables be taken care of?
 
 for aish & isha 
 
+QUESTION - What to do for rookie player - should we just start them off as 0 (probably not a good idea) / potentially use college data for these palyers / potentially average out their teams information 
+
 Helpful Link btw for Python basics: https://data36.com/python-built-in-functions-methods-python-data-science-basics-3/
 
 ```python
