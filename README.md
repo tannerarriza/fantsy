@@ -63,6 +63,9 @@ Ideas for how should categorical variables be taken care of?
  ___________________________________________________________________
 
 for aish & isha 
+
+Helpful Link btw for Python basics: https://data36.com/python-built-in-functions-methods-python-data-science-basics-3/
+
 ```python
 # functions
 
