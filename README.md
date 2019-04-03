@@ -120,5 +120,9 @@ def averageForOutliers(data):
 def removeOutliers(data):
     'used to deal with outliers - removing that row from the dataset '
     return 
+    
+def Playing(data):
+    'check that the player is current playing this season and has played at least one season before'
+    return
 
 ```
