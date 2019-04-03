@@ -7,11 +7,11 @@ Alan idea to do
 
 TO DO 
 1) create a final dataset
-    a) design what we are predicting - I think players fantasy score they got for that period
-    b) apply the fantasy formula to data so we can get labels
-    c) drop the fantasy formula equations since new games wont have it 
-    d) drop all features that we wont have when getting new data
-    e) establish a baseine featrue set and baseline model 
+    1. design what we are predicting - I think players fantasy score they got for that period
+    1. apply the fantasy formula to data so we can get labels
+    1. drop the fantasy formula equations since new games wont have it 
+    1. drop all features that we wont have when getting new data
+    1. establish a baseine featrue set and baseline model 
     
     
 2) split data to a test set and hide that away
