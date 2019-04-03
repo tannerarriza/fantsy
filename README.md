@@ -29,6 +29,7 @@ merge standings and box score. each player attached to that row
     - age
     - points 
     - away/home 
+    - foul counts 
     
     
     a) establish a baseline modeline and validation loss.
