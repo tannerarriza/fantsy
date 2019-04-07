@@ -74,6 +74,8 @@ QUESTION - What to do for rookie player - should we just start them off as 0 (pr
 
 Helpful Link btw for Python basics: https://data36.com/python-built-in-functions-methods-python-data-science-basics-3/
 
+If we want to include margin of error with our data, use this formula to calculate it: (total points - projected points)/(projected points)
+
 ```python
 # functions
 
