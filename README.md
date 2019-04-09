@@ -136,5 +136,11 @@ def Playing(data):
 def fantasypoints(data):
     'calculate the fantasy points- https://www.nba.com/article/2017/10/05/nba-unveils-new-official-fantasy-scoring'
     return 
-
+    
+def age_calc(dob):
+    'Create a function to calculate age from date of birth'
+    dob = datetime.strptime(dob, "%Y-%m-%d").date()
+    #dob = datetime.strptime(dob, "%d.%m.%Y").date()
+    today = date.today()
+    return today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
 ```
