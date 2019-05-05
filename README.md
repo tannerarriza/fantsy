@@ -74,6 +74,10 @@ If we want to include margin of error with our data, use this formula to calcula
 
 TODO:
 Aish + Isha -> Create the website 
+    - Helpful links for us: 1) Flask for beginners tutorial: https://www.youtube.com/watch?v=EnJKHVEzHFw
+                            2) Code snippets: https://github.com/CoreyMSchafer/code_snippets/tree/master/Python/Flask_Blog
+                            3) Class code: https://github.com/ikhlaqsidhu/data-x/tree/master/12-productionize-deploy-flask/deploy-models
+                            4) Deploying ML Models using flask: https://www.analyticsvidhya.com/blog/2017/09/machine-learning-models-as-apis-using-flask/
 Tanner -> Finish creating features 
 Alan -> Models 
 
