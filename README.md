@@ -68,13 +68,14 @@ Ideas for how should categorical variables be taken care of?
     - team results (2 values of Win and Loss): convert to 0 and 1
  ___________________________________________________________________
 
-for Aish --> Write the code for the function that calculates fantasy points and additionally add a column to the existing dataset for fantasy points so that we can make visualizations comparing different columns against this one 
-
-QUESTION - What to do for rookie player - should we just start them off as 0 (probably not a good idea) / potentially use college data for these palyers / potentially average out their teams information 
-
 Helpful Link btw for Python basics: https://data36.com/python-built-in-functions-methods-python-data-science-basics-3/
 
 If we want to include margin of error with our data, use this formula to calculate it: (total points - projected points)/(projected points)
+
+TODO:
+Aish + Isha -> Create the website 
+Tanner -> Finish creating features 
+Alan -> Models 
 
 ```python
 # functions
