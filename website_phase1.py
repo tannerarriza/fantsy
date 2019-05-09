@@ -71,10 +71,9 @@ def home():
 
 #    '''
 
-
-
-
-
+#Sources we used to understanding Flask 
+# -> https://github.com/ikhlaqsidhu/data-x/tree/master/12-productionize-deploy-flask/deploy-models
+# ->  https://www.youtube.com/watch?v=MwZwr5Tvyxo
 
 
 if __name__ == '__main__':
